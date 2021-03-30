@@ -50,9 +50,9 @@ In this project we are trying to simulate a single server banking system. We hav
 ## Team Members
 
 * Md Shahadat Islam. (https://github.com/Shahadat-shuvo),(https://www.facebook.com/shahadatislam.shuvo.7/)
-* Md Ashraf Udin.
+* Md Ashraf Udin.(https://github.com/Ashrafud)
 * Thirtha Das.(https://github.com/thirtha741)
-* Ishrat Ishita.
+* Ishrat Ishita.(https://github.com/ishratishita)
 
 
 **Lets first try and visualize the system
