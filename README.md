@@ -55,7 +55,7 @@ The waiting space available for customers in the queue is infinite.
 **Lets first try and visualize the system
 
 
-<img src="banking_simulate.png" alt="photo not available" width="70%" height="70%">
+<img src="downloads/banking_simulate.png" alt="photo not available" width="70%" height="70%">
 
 1. ***State Variables:*** describe the system at a particular time
 2. ***Simulation Clock:*** Keeps track of time
@@ -68,4 +68,4 @@ The waiting space available for customers in the queue is infinite.
 
 The timing routine decides which event occurs next by comparing the scheduled time of events and advances the simulation clock to the respective event. Initially, the departure events are scheduled to occur at time infinity(since there are no customers), which guarantees that the first event will be an arrival event.
 
-<img src="time_routine.png" alt="photo not available" width="70%" height="70%">
+<img src="C:/UsersShuvo/Pictures/Screenshots/time_routine.png" alt="photo not available" width="70%" height="70%">
