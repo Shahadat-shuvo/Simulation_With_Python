@@ -56,7 +56,7 @@ The waiting space available for customers in the queue is infinite.
 
 
 <p align="center">
-  <img src="Downloads/banking_simulate.png" width="350" title="hover text">
+  <img src="Downloads\banking_simulate.png" width="350" title="hover text">
   <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
 </p>
 
