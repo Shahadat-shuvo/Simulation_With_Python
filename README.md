@@ -11,44 +11,47 @@ A Queue has to be maintained well to synchronize between the average waiting tim
 
 ## About this Project
 
-In this project we are trying to simulate a single server banking system. We use Poisson and Exponential distribution for some random variables to generate interarrival time and service time respectively.
+In this project we are trying to simulate a single server banking system. We have used **Poisson and Exponential distribution** for some random variables to generate interarrival time and service time respectively. Running the simulation for 20 customers so far.
 
-NOw, we have to consider a single server for simulate the bank system.
+## Procedure
 
-We have to initaial inter arrival time and service time first.
+  - Now, we have to consider a single server for simulate the bank system.
 
-Consider poission as inter arrival time and exponential as service time generate 20 random values.
+  - We have to initaial inter arrival time and service time first.
 
-The generate arrival time, time service end, time service begin,waiting time,time spend in system & idle time step by step.
+  - Consider poission as inter arrival time and exponential as service time generate 20 random values.
 
-The value generating equations are given in the code section.
+  - The generate arrival time, time service end, time service begin,waiting time,time spend in system & idle time step by step.
 
-The single channel queuing model can be fitted in situations where the following seven conditions are fulfilled:
+  - The value generating equations are given in the code section.
 
-The number of arrivals per unit of time is described by poisson distribution. The mean arrival rate is denoted by λ.
+  - The single channel queuing model can be fitted in situations where the following seven conditions are fulfilled:
 
-The service time has exponential distribution. The average service rate is denoted by μ.
+  - The number of arrivals per unit of time is described by poisson distribution. The mean arrival rate is denoted by λ.
 
-Arrivals are from infinite population.
+  - The service time has exponential distribution. The average service rate is denoted by μ.
 
-The queue discipline is FIFO, that is, the customers are served on a first come first serve basis.
+  - Arrivals are from infinite population.
 
-There is only a single service station.
+  - The queue discipline is FIFO, that is, the customers are served on a first come first serve basis.
 
-The mean arrival rate is less than the mean service rate .
+  - There is only a single service station.
 
-The waiting space available for customers in the queue is infinite.
+  - The mean arrival rate is less than the mean service rate .
+
+  - The waiting space available for customers in the queue is infinite.
 
 ## Quick Links
 1. https://towardsdatascience.com/simulating-a-queuing-system-in-python-8a7d1151d485
 2. Probability distribution. (https://www.datacamp.com/community/tutorials/probability-distributions-python?fbclid=IwAR1Van10TbSh-pfjCA_zS5F3AXI8fmWGrSgNZ0QdUwm-NwZG6Aacqd-qHOg)
 3. A short research. (https://morioh.com/p/2a0717880c2d)
+4. https://towardsdatascience.com/simulating-a-queuing-system-in-python-8a7d1151d485
 
 ## Team Members
 
-* Md Shahadat Islam. 
+* Md Shahadat Islam. (https://github.com/Shahadat-shuvo),(https://www.facebook.com/shahadatislam.shuvo.7/)
 * Md Ashraf Udin.
-* Thirtha Das.
+* Thirtha Das.(https://github.com/thirtha741)
 * Ishrat Ishita.
 
 
@@ -68,6 +71,12 @@ The waiting space available for customers in the queue is infinite.
 
 The timing routine decides which event occurs next by comparing the scheduled time of events and advances the simulation clock to the respective event. Initially, the departure events are scheduled to occur at time infinity(since there are no customers), which guarantees that the first event will be an arrival event.
 
+## Exponential Distribution
+
+The exponential distribution describes the time between events in a Poisson point process, i.e., a process in which events occur continuously and independently at a constant average rate. It has a parameter λ called rate parameter, and its equation is described as :
+
+
+
 ## Generate Arrivale & Service Time
 
 Using ***Poisson*** & ***Exponential distribution*** we generating the random values which are define as arrival time & service time
@@ -80,4 +89,21 @@ Using ***Poisson*** & ***Exponential distribution*** we generating the random va
 
 ## Running the Simulation
 
-The next step is to run the simulation. I decided to run it for 20 replications, and collect and store the data in an excel workbook for further analysis. I have used a **for loop** which updates the random number seed every time, runs for 20 times, and appends the results to a pandas **data frame**. Later this data frame is exported as an **tabulate form.
+The next step is to run the simulation. I decided to run it for 20 customers. I have used a **for loop** which updates the random number seed every time, runs for 20 times, and appends the results to a pandas **data frame**. Later this data frame is exported as an **tabulate form.
+
+![tsb](https://user-images.githubusercontent.com/79735371/112969661-47630080-916f-11eb-9b8f-932cb368e7a4.png)
+![wt](https://user-images.githubusercontent.com/79735371/112969682-4e8a0e80-916f-11eb-99de-3422267f4aa4.png)
+![table1](https://user-images.githubusercontent.com/79735371/112969744-5cd82a80-916f-11eb-957e-2a45d8436ee1.png)
+![table2](https://user-images.githubusercontent.com/79735371/112969817-6d88a080-916f-11eb-80c5-6ff830e82c3e.png)
+
+## RESULT
+
+Here is a snippet of the results obtained from 20 customers.
+
+![table1](https://user-images.githubusercontent.com/79735371/112969744-5cd82a80-916f-11eb-957e-2a45d8436ee1.png)
+![table2](https://user-images.githubusercontent.com/79735371/112969817-6d88a080-916f-11eb-80c5-6ff830e82c3e.png)
+
+
+## Conclusion
+
+Simulation can be used as a crucial decision-making tool in many industries, from manufacturing to service and even biology. This project is just a small example of the endless possibilities of simulation. There are many Softwares and resources out there to model complex systems and simulate them with ease. However, the goal of this project was to get a fundamental understanding of how a discrete event simulation works and its use as a decision-making tool.
