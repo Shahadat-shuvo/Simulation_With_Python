@@ -55,7 +55,10 @@ The waiting space available for customers in the queue is infinite.
 **Lets first try and visualize the system
 
 
-<img src="downloads/banking_simulate.png" alt="photo not available" width="70%" height="70%">
+<p align="center">
+  <img src="Downloads/banking_simulate.png" width="350" title="hover text">
+  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
+</p>
 
 1. ***State Variables:*** describe the system at a particular time
 2. ***Simulation Clock:*** Keeps track of time
