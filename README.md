@@ -54,7 +54,7 @@ The waiting space available for customers in the queue is infinite.
 
 **Lets first try and visualize the system
 
-
+![banking_simulate](https://user-images.githubusercontent.com/79735371/112964586-47accd00-916a-11eb-884d-778e422866cf.png)
 <p align="center">
   <img src="Downloads\banking_simulate.png" width="350" title="hover text">
   <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
