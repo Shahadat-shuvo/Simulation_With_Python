@@ -90,8 +90,9 @@ The following figure shows a typical poisson distribution:
 ![graph1](https://user-images.githubusercontent.com/79735371/112975047-02da6380-9175-11eb-9b61-6d5e0bc9f446.png)
 
 
+## Implementation Section
 
-## Generate Arrivale & Service Time
+**Generate Arrivale & Service Time
 
 Using ***Poisson*** & ***Exponential distribution*** we generating the random values which are define as arrival time & service time
 
@@ -101,14 +102,12 @@ Using ***Poisson*** & ***Exponential distribution*** we generating the random va
 
 ![time](https://user-images.githubusercontent.com/79735371/112966498-1c2ae200-916c-11eb-9fff-4b4ef9b3643e.png)
 
-## Running the Simulation
+**Running the Simulation
 
 The next step is to run the simulation. I decided to run it for 20 customers. I have used a **for loop** which updates the random number seed every time, runs for 20 times, and appends the results to a pandas **data frame**. Later this data frame is exported as an **tabulate form.
 
 ![tsb](https://user-images.githubusercontent.com/79735371/112969661-47630080-916f-11eb-9b8f-932cb368e7a4.png)
 ![wt](https://user-images.githubusercontent.com/79735371/112969682-4e8a0e80-916f-11eb-99de-3422267f4aa4.png)
-![table1](https://user-images.githubusercontent.com/79735371/112969744-5cd82a80-916f-11eb-957e-2a45d8436ee1.png)
-![table2](https://user-images.githubusercontent.com/79735371/112969817-6d88a080-916f-11eb-80c5-6ff830e82c3e.png)
 
 ## RESULT
 
