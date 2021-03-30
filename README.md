@@ -74,6 +74,20 @@ The timing routine decides which event occurs next by comparing the scheduled ti
 ## Exponential Distribution
 
 The exponential distribution describes the time between events in a Poisson point process, i.e., a process in which events occur continuously and independently at a constant average rate. It has a parameter λ called rate parameter, and its equation is described as :
+![eqn](https://user-images.githubusercontent.com/79735371/112974967-e6d6c200-9174-11eb-88f6-835225005010.png)
+
+A decreasing exponential distribution looks like :
+
+![graph](https://user-images.githubusercontent.com/79735371/112975005-f3f3b100-9174-11eb-9296-a9f50b34cc21.png)
+
+## Poisson Distribution
+Poisson random variable is typically used to model the number of times an event happened in a time interval. For example, the number of users visited on a website in an interval can be thought of a Poisson process. Poisson distribution is described in terms of the rate (μ) at which the events happen. An event can occur 0, 1, 2, … times in an interval. The average number of events in an interval is designated λ (lambda). Lambda is the event rate, also called the rate parameter. The probability of observing k events in an interval is given by the equation:
+
+![eqn1](https://user-images.githubusercontent.com/79735371/112975022-fbb35580-9174-11eb-925e-3660d943faaa.png)
+
+The following figure shows a typical poisson distribution:
+
+![graph1](https://user-images.githubusercontent.com/79735371/112975047-02da6380-9175-11eb-9b61-6d5e0bc9f446.png)
 
 
 
