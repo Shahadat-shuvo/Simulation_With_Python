@@ -68,9 +68,16 @@ The waiting space available for customers in the queue is infinite.
 
 The timing routine decides which event occurs next by comparing the scheduled time of events and advances the simulation clock to the respective event. Initially, the departure events are scheduled to occur at time infinity(since there are no customers), which guarantees that the first event will be an arrival event.
 
+## Generate Arrivale & Service Time
+
+Using ***Poisson*** & ***Exponential distribution*** we generating the random values which are define as arrival time & service time
+
 ![time routine](https://user-images.githubusercontent.com/79735371/112966447-10d7b680-916c-11eb-9789-f26017441012.png)
 
 **Given Table
 
 ![time](https://user-images.githubusercontent.com/79735371/112966498-1c2ae200-916c-11eb-9fff-4b4ef9b3643e.png)
 
+## Running the Simulation
+
+The next step is to run the simulation. I decided to run it for 20 replications, and collect and store the data in an excel workbook for further analysis. I have used a **for loop** which updates the random number seed every time, runs for 20 times, and appends the results to a pandas **data frame**. Later this data frame is exported as an **tabulate form.
